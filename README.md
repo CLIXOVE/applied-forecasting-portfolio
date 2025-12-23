@@ -1,117 +1,127 @@
-# Applied Data Science Portfolio  
-**Forecasting, Reliability, and Decision Systems**
+# Applied Forecasting & Decision Systems
+**A portfolio of production-oriented data science projects**
 
 Hi, I’m **Yeji Choe**, a Data Scientist specialising in **applied forecasting, model reliability, and decision-focused analytics**.
 
-This portfolio brings together a set of projects that reflect how data science is practiced in real organisations:  
-not just building models, but **owning decisions, managing risk, and designing systems that behave safely under uncertainty**.
+This repository is the **entry point** to my applied data science portfolio.
 
-Rather than optimising for novelty or benchmark scores, these projects emphasise:
-- reliability over raw accuracy  
-- judgement under stress  
-- clarity of decision logic  
-- production-style thinking  
+The projects linked below reflect how data science is practiced in real organisations:  
+not just building models, but **owning decisions, managing risk, and designing systems that behave safely under uncertainty**.
 
 ---
 
-## Portfolio Focus
+## How to Navigate This Portfolio
 
-Across all projects, I focus on a consistent set of principles:
+- This repository is a **hub** (start here)
+- Each project lives in its own dedicated repository
+- Notebooks are the primary narrative
+- Code and structure emphasise **reliability, judgement, and production thinking**
+
+You do **not** need to read everything.  
+Each project is designed to stand alone.
+
+---
+
+## Featured Projects
+
+### 1. Forecast Reliability & Guardrails
+**Repo:** `1.-forecast-reliability-guardrails`
+
+Designing forecasting systems that remain trustworthy under volatility.
+
+**What it shows**
+- Stress-regime evaluation (peak, hot, cold)
+- Rolling reliability monitoring
+- Champion–challenger guardrails
+- Explicit trade-offs between accuracy and safety
+
+**Signal:** Production reliability, regulated-industry mindset  
+👉 https://github.com/CLIXOVE/1.-forecast-reliability-guardrails
+
+---
+
+### 2. Decision-Focused Forecasting
+**Repo:** `2.-decision-focused-forecasting` (Private)
+
+Translating forecasts into explicit operational decisions and measuring impact.
+
+**What it shows**
+- Clear decision framing
+- Simple, auditable decision rules
+- Before/after simulation of outcomes
+- Focus on behaviour change, not just prediction quality
+
+**Signal:** Business impact, product thinking
+
+---
+
+### 3. End-to-End Forecast Pipeline
+**Repo:** `3.-end-to-end-forecast-pipeline` (Private)
+
+Owning the full data lifecycle from ingestion to evaluation.
+
+**What it shows**
+- Raw data → clean tables → features → models → evaluation
+- Data contracts and validation
+- Reproducibility and assumptions made explicit
+
+**Signal:** Engineering empathy, production readiness
+
+---
+
+### 4. Forecast Model Benchmarking & Trade-offs
+**Repo:** `4.-forecast-model-benchmarking` (Private)
+
+Understanding trade-offs beyond headline accuracy.
+
+**What it shows**
+- Accuracy vs stability analysis
+- Behaviour under stress
+- Judgement-driven model selection
+
+**Signal:** Senior judgement, trade-off reasoning
+
+---
+
+### 5. Forecasting with Bad Data
+**Repo:** `5.-forecasting-with-bad-data` (Private)
+
+How data issues distort models and how to detect them early.
+
+**What it shows**
+- Missingness and leakage
+- Naive vs corrected modelling
+- Robust evaluation practices
+
+**Signal:** Real-world maturity, risk awareness
+
+---
+
+### 6. Data Quality & Trust in Production
+**Repo:** `6.-data-quality-trust` (Private)
+
+Ingestion-layer monitoring for real-time telemetry.
+
+**What it shows**
+- Timestamp alignment and interval completeness
+- Freshness as a gating signal
+- Plausibility rules and flatline detection
+- Explicit downstream blocking logic
+
+**Signal:** Production maturity, system safety, ingestion reliability
+
+---
+
+## Design Philosophy (Shared Across All Projects)
+
+Across all projects, I consistently apply the following principles:
 
 - **Forecasts are inputs to decisions, not outputs**
 - **Average accuracy hides failure modes**
 - **Systems should fail gracefully, not silently**
 - **Simple, explainable logic often outperforms clever complexity under stress**
 
-The projects span forecasting, evaluation, decision simulation, and data quality, but share a common design philosophy.
-
----
-
-## Featured Projects
-
-### 1. Forecast Reliability & Guardrails  
-**Repo:** `forecast-reliability-guardrails`
-
-Designing a forecasting system that remains trustworthy during volatile conditions.
-
-- Stress-regime evaluation (peak, hot, cold)
-- Rolling reliability monitoring
-- Champion–challenger guardrails
-- Explicit trade-off between accuracy and safety
-
-**Core signal:** Production reliability, regulated-industry mindset  
-→ [View repository](./forecast-reliability-guardrails)
-
----
-
-### 2. Decision-Focused Forecasting  
-**Repo:** `decision-focused-forecasting`
-
-Translating forecasts into explicit operational decisions and measuring impact.
-
-- Clear decision framing
-- Simple, auditable decision rules
-- Before/after simulation of outcomes
-- Focus on behaviour change, not just prediction quality
-
-**Core signal:** Business impact, product thinking  
-→ [View repository](./decision-focused-forecasting)
-
----
-
-### 3. End-to-End Forecast Pipeline  
-**Repo:** `end-to-end-forecast-pipeline`
-
-Demonstrating ownership of the full data lifecycle.
-
-- Raw data → clean tables → features → models → evaluation
-- Data contracts and validation
-- Reproducibility and assumptions made explicit
-
-**Core signal:** Engineering empathy, production readiness  
-→ [View repository](./end-to-end-forecast-pipeline)
-
----
-
-### 4. Forecast Model Benchmarking & Trade-offs  
-**Repo:** `forecast-model-benchmarking`
-
-Comparing multiple models to understand trade-offs beyond headline accuracy.
-
-- Accuracy vs stability analysis
-- Behaviour under stress
-- Judgement-driven model selection
-
-**Core signal:** Senior judgement, trade-off reasoning  
-→ [View repository](./forecast-model-benchmarking)
-
----
-
-### 5. Forecasting with Bad Data  
-**Repo:** `forecasting-with-bad-data`
-
-Exploring how data issues distort models and how to detect and fix them.
-
-- Missingness and leakage
-- Naive vs corrected modelling
-- Robust evaluation practices
-
-**Core signal:** Real-world maturity, risk awareness  
-→ [View repository](./forecasting-with-bad-data)
-
----
-
-## How to Read This Portfolio
-
-Each project follows a consistent structure:
-
-1. **Problem & decision context**
-2. **Data assumptions and validation**
-3. **Modelling approach**
-4. **Evaluation under stress or uncertainty**
-5. **Explicit decision or reliability logic**
-
-Notebooks are the primary narrative, supported by reusable code and summary outputs for quick review.
+These projects are intentionally opinionated and production-oriented.
 
 ---
 
@@ -121,7 +131,9 @@ Notebooks are the primary narrative, supported by reusable code and summary outp
 Data Scientist – Applied Forecasting & Decision Systems  
 Auckland, New Zealand  
 
-I’ve worked in environments where models directly influence operational and financial outcomes, and I’m particularly interested in roles that value **ownership, reliability, and thoughtful system design**.
+LinkedIn: https://www.linkedin.com/in/yeji-choe-4979071a7
+
+I’m particularly interested in roles that value **ownership, reliability, and thoughtful system design** in analytics and forecasting systems.
 
 ---
 
@@ -130,13 +142,13 @@ I’ve worked in environments where models directly influence operational and fi
 **This portfolio is:**
 - applied and production-oriented  
 - focused on reliability and decisions  
-- opinionated about trade-offs  
+- explicit about trade-offs  
 
 **This portfolio is not:**
-- a collection of Kaggle-style optimisations  
-- research-heavy or algorithm-first  
-- infrastructure- or MLOps-focused  
+- Kaggle-style optimisation exercises  
+- algorithm-first research projects  
+- infrastructure-heavy MLOps demos  
 
 ---
 
-If you’re interested in how forecasting and analytics behave *when the stakes are real*, this portfolio reflects how I approach that work.
+If you’re interested in how forecasting and analytics behave **when the stakes are real**, this portfolio reflects how I approach that work.
