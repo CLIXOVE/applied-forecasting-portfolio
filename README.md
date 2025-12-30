@@ -25,7 +25,7 @@ Each project is designed to stand alone.
 ## Featured Projects
 
 ### 1. Forecast Reliability & Guardrails
-**Repo:** `1.-forecast-reliability-guardrails`
+**Repo:** `forecast-reliability-guardrails`
 
 Designing forecasting systems that remain trustworthy under volatility.
 
@@ -36,12 +36,12 @@ Designing forecasting systems that remain trustworthy under volatility.
 - Explicit trade-offs between accuracy and safety
 
 **Signal:** Production reliability, regulated-industry mindset  
-👉 https://github.com/CLIXOVE/1.-forecast-reliability-guardrails
+👉 https://github.com/CLIXOVE/forecast-reliability-guardrails
 
 ---
 
 ### 2. Decision-Focused Forecasting
-**Repo:** `2.-decision-focused-forecasting` (Private)
+**Repo:** `decision-focused-forecasting` 
 
 Translating forecasts into explicit operational decisions and measuring impact.
 
@@ -56,7 +56,7 @@ Translating forecasts into explicit operational decisions and measuring impact.
 ---
 
 ### 3. End-to-End Forecast Pipeline
-**Repo:** `3.-end-to-end-forecast-pipeline` (Private)
+**Repo:** `end-to-end-forecast-pipeline` 
 
 Owning the full data lifecycle from ingestion to evaluation.
 
@@ -70,7 +70,7 @@ Owning the full data lifecycle from ingestion to evaluation.
 ---
 
 ### 4. Forecast Model Benchmarking & Trade-offs
-**Repo:** `4.-forecast-model-benchmarking` (Private)
+**Repo:** `forecast-model-benchmarking`
 
 Understanding trade-offs beyond headline accuracy.
 
@@ -84,7 +84,7 @@ Understanding trade-offs beyond headline accuracy.
 ---
 
 ### 5. Forecasting with Bad Data
-**Repo:** `5.-forecasting-with-bad-data` (Private)
+**Repo:** `forecasting-with-bad-data` 
 
 How data issues distort models and how to detect them early.
 
@@ -98,7 +98,7 @@ How data issues distort models and how to detect them early.
 ---
 
 ### 6. Data Quality & Trust in Production
-**Repo:** `6.-data-quality-trust` (Private)
+**Repo:** `data-quality-trust` 
 
 Ingestion-layer monitoring for real-time telemetry.
 
