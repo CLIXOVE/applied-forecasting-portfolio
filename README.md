@@ -22,6 +22,24 @@ Each project is designed to stand alone.
 
 ---
 
+## Forecasting Platform (Technical Foundation)
+
+Alongside the applied projects below, I maintain a **lightweight forecasting framework** that reflects how I structure forecasting systems for real-world use.
+
+The platform focuses on:
+
+- Reproducible, configuration-driven pipelines
+- Clear separation between data, models, and evaluation
+- Decision-aligned metrics and stability checks
+- Practical defaults suitable for volatile environments
+
+This framework is used as a **technical foundation** across projects, with context-specific logic layered on top depending on the decision and domain.
+
+🔗 **Forecasting framework repository:**  
+https://github.com/CLIXOVE/forecasting-framework
+
+---
+
 ## Featured Projects
 
 ### 1. Forecast Reliability & Guardrails
